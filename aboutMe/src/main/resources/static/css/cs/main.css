@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+body {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 900;
+}
+
+header {
+	opacity: 0.0;
+}
+
+.nav-color {
+	color: #A0522D;
+}
+
+.div-main {
+	max-width: 100%;
+	height: 400px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.div-main::before {
+	content: '';
+	background-image: url('../images/note.jpg');
+	background-size: cover;
+	opacity: 0.5;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	top: 0px;
+	left: 0px;
+	z-index: -1;
+}
+
+.myBox {
+	margin-top: 0.2%;
+	text-align: center;
+	display: block;
+	height: 40%;
+}
+
+.myBox p {
+	font-size: 75px;
+}
+
+.myBox strong {
+	font-size: 85px;
+}
+
+.myBoxColor {
+	color: #a52a2a;
+}
+
+.intSelfDiv {
+	background-color: #F5F5DC;
+	text-align: center;
+	overflow: auto;
+}
+
+.inner {
+	width: 100%;
+	box-sizing: border-box;
+	margin-bottom: 3%;
+}
+
+.intSelfDiv p strong {
+	color: black;
+}
+
+.intSkill {
+	display: block;
+	text-align: center;
+}
+
+.intSkill .container {
+	margin-top: 5%;
+	text-align: center;
+}
+
+.title {
+	margin-bottom: 3%;
+	font-size: 55px;
+}
+
+.parent {
+	margin: 10px auto;
+}
+
+.parent p {
+	margin-top: 2%;
+	font-weight: 500;
+}
+
+a{
+	color: black;
+}
+
+.parent .first {
+	font-size: 25px;
+	float: left;
+	width: 20%;
+	box-sizing: border-box;
+	float: left;
+	margin-bottom: 5%;
+}
+
+.parent .second {
+	font-size: 25px;
+	float: left;
+	margin-left: 5%;
+	width: 20%;
+	box-sizing: border-box;
+	margin-bottom: 5%;
+}
+
+.intProject {
+	background-color: #BFC8D7;
+	text-align: center;
+	overflow: auto;
+}
+
+.intProjectDiv {
+	background-color: white;
+	width: 50%;
+	height: 600px;
+	margin: auto;
+	margin-bottom: 5%;
+	border-radius: 30px;
+}
+
+.intCareer {
+	background-color: #E8E7D2;
+	text-align: center;
+	overflow: auto;
+}
